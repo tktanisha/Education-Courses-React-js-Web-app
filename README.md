@@ -1,8 +1,4 @@
 
-# Educational Curses Website
-
-A website to help students learn about different curses and spells from folklore. Built with React and uses external APIs.
-
 ## Features
 
 - Browse courses categorized 
