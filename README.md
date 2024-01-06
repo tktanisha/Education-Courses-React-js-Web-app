@@ -1,31 +1,34 @@
-# React & Tailwind CSS Starter Pack
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+# Educational Curses Website
 
-## Usage
+A website to help students learn about different curses and spells from folklore. Built with React and uses external APIs.
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+- Browse courses categorized 
+- View descriptions of each curse
+- Users can like/unlike courses by clicking a heart icon
+- React Toast notifications on like/unlike
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## Technologies Used
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+- React & Tailwind CSS - For frontend framework
+- HTML, CSS, JS 
+- External API - For course data
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+## How To Use
 
-## Contributing
+1. Clone or download the repo
+2. Run `npm install` to install dependencies
+3. Run `npm run start` to start the dev server
+4. View courses categorized by region/culture
+5. Click the heart icon to like/unlike curses 
+6. See toast notifications on interactions
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+
+## Possible Improvements
+
+- Add user authentication/profiles
+- Search/filter courses
+- Offline support
+
